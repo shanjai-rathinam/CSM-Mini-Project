@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+
+# Data files (to avoid committing large datasets to Git)
+data/legacy_incidents_data.csv
+data/cloud_ready_incidents.json
