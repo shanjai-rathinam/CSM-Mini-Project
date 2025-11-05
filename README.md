@@ -20,9 +20,6 @@ The primary objective is to re-architect this system into a scalable, cost-effic
 
 The new architecture will be built on AWS and will be event-driven and serverless to maximize scalability and minimize operational overhead.
 
-![Architecture Diagram](architecture.png)
-*(A sample diagram image named `architecture.png` should be placed here. You can create one using tools like diagrams.net and add it to the repository.)*
-
 **Core Components:**
 
 1.  **Data Ingestion (API Gateway & AWS Lambda):** New incidents are reported via a REST API endpoint hosted on API Gateway. This triggers a Lambda function (`IncidentIngestionFunction`) to process and validate the incoming data.
